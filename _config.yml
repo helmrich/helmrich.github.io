@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Tobias Helmrich | Web Developer
+title: Tobias Helmrich | Web and Mobile Developer
 email: me@tobiashelmri.ch
-description: The personal website of Tobias Helmrich, a web developer from Germany.
+description: The personal website of Tobias Helmrich, a web and mobile developer from Germany.
 url: "http://tobiashelmri.ch" # the base hostname & protocol for your site
 twitter_username: tobias_helmrich
 github_username:  helmrich
@@ -26,4 +26,4 @@ defaults:
     values:
       layout: "post"
       author: Tobias Helmrich
-      category: Web Development
+      category: Web Development, Mobile Development
