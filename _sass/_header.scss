@@ -1,0 +1,23 @@
+#hero {
+	width: 100%;
+	height: 695px;
+	background-image: url('../assets/images/blurry-desk.jpg');
+	background-size: cover;
+	background-position: center;
+	> h1 {
+		margin: 0 auto;
+		text-align: center;
+		padding-top: 150px;
+	}
+	> h3 {
+		margin: 0 auto;
+		text-align: center;
+		width: 90%;
+		@media screen and (min-width: 800px) {
+			width: 55%;
+		}
+	}
+	> .btn {
+		margin: 50px auto;
+	}
+}

@@ -1,0 +1,26 @@
+#skills {
+	background: $primary-color;
+	min-height: 575px;
+	padding-top: 30px;
+	> h2 {
+		margin: 0 auto;
+	}
+	h2,
+	h3,
+	p {
+		text-align: center;
+	}
+	h3,
+	p {
+		margin: 20px auto;
+		width: 85%;
+		@media screen and (min-width: 800px) {
+			width: 70%;
+		}
+	}
+	> svg {
+		width: 140px;
+		display: block;
+		margin: 40px auto;
+	}
+}

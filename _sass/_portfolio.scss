@@ -1,0 +1,38 @@
+#portfolio {
+	height: 1490px;
+	background: $secondary-color;
+	h2 {
+		padding-top: 30px;
+		margin-top: 0;
+		text-align: center;
+	}
+}
+.portfolio-piece {
+	position: relative;
+	height: 350px;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.7;
+	.btn {
+		position: absolute;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+@for $i from 1 through 4 {
+	.portfolio-piece:nth-of-type(#{$i}) {
+		background-image: url('../assets/images/portfolio-piece-' + $i + '.jpg');
+	}
+}
+@media screen and (min-width: 767px) {
+	#portfolio {
+		height: 790px;
+	}
+	.portfolio-piece {
+		width: 50%;
+		float: left;
+	}
+}

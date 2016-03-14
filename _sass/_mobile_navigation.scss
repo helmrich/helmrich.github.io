@@ -1,0 +1,38 @@
+#navOverlay {
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	background: $primary-color;
+	transform: translateX(100%);
+	> ul {
+		position: absolute;
+		list-style: none;
+		text-align: center;
+		top: 50%;
+		left: 0;
+		right: 0;
+		transform: translateY(-50%);
+		> a {
+			font-size: 150%;
+			font-weight: 700;
+			li {
+				margin-top: 30px;
+			}
+			&:hover {
+				color: darken($white, 15%);
+				transition: color 0.25s;
+			}
+		}
+	}
+}
+.nav-radio {
+	display: none;
+}
+#showNav:checked ~ #navOverlay {
+	transform: translateX(0);
+	transition: transform 0.4s ease-out;
+}
+#hideNav:checked ~ #navOverlay {
+	transform: translateX(100%);
+	transition: transform 0.4s ease-out;
+}

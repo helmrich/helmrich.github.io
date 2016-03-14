@@ -1,0 +1,12 @@
+footer {
+	height: 90px;
+	background: $primary-color;
+	text-align: center;
+	padding-top: 20px;
+	> p {
+		top: 50%;
+		font-size: 100%;
+		line-height: 125%;
+		margin: 0;
+	}
+}
