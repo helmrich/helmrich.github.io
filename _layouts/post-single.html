@@ -10,6 +10,7 @@
 	<div class="wrapper">
 		<section class="blog-post">
 			<h2>{{ page.title }}</h2>
+            <span class="post-date">{{ page.date | date: "%B %-d, %Y" }}</span>
 			<p>{{ content }}</p>
             <a href="/blog">&laquo; Back to the blog</a>
 		</section>

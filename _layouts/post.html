@@ -15,6 +15,7 @@
 					<a href="{{ post.url }}">
 						<h2>{{ post.title }}</h2>
 					</a>
+                    <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
 					<p>
 						{{ post.content | strip_html | truncatewords: 100 }}
 						<a href="{{ post.url }}"> &raquo; Read more</a>
