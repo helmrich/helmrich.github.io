@@ -37,6 +37,6 @@ new WOW().init();
  *****************************/
 
 $("header").sticky({
-	topSpacing: 0,
+    topSpacing: 0,
 	className: 'sticky'
 });
