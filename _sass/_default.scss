@@ -8,11 +8,15 @@ body {
 a {
     color: $cloudy;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
 
     }
+}
+
+.content a {
+    text-decoration: underline;
 }
 
 p {
