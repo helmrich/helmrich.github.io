@@ -8,7 +8,7 @@ body {
 a {
     color: $cloudy;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:hover {
 
@@ -18,6 +18,11 @@ a {
 p {
     font-size: 20px;
     line-height: 32px;
+}
+
+code {
+    color: $cloudy;
+    font-weight: bold;
 }
 
 img {
