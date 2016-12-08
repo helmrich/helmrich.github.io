@@ -13,4 +13,4 @@ At the moment I'm trying to absorb everything about iOS Development and the Swif
 
 Besides designing and developing I enjoy reading, learning languages, listening to music, watching anime and drinking good coffee.
 
-If you want to get in touch with me you can find me on [Twitter](https://twitter.com/tobias_helmrich) or send me a mail to <me@tobias-helmrich.de>. I'm looking forward to hear from you!
+If you want to get in touch with me you can find me on [Twitter](https://twitter.com/tobias_helmrich) or send me an email to <me@tobias-helmrich.de>. I'm looking forward to hear from you!
