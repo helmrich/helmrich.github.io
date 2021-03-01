@@ -4,7 +4,7 @@ description: >
   iOS Developer
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tobiashelmri.ch" # the base hostname & protocol for your site
+url: "https://helmrich.github.io/old-website" # the base hostname & protocol for your site
 
 author:
   fullname: Tobias Helmrich
