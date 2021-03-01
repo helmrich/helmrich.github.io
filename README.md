@@ -1,1 +1,1 @@
-This is my personal website and blog. It uses Jekyll and it's hosted on GitHub pages. The theme I'm using is [Daktilo](https://github.com/kronik3r/daktilo). You can find the website [here](http://tobiashelmri.ch).
+This was my personal website and blog. It uses Jekyll and is hosted on GitHub pages. The theme I'm using is [Daktilo](https://github.com/kronik3r/daktilo). You can find the website [here](https://helmrich.github.io/old-website/).
